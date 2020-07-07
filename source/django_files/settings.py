@@ -68,7 +68,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_files.wsgi.application'
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=tz-ta890%0259#-ooolk^&6jf83(xpten%!!^j%^nj%d_5gul'
+SECRET_KEY = 'xddxd'
 
 
 # Database
