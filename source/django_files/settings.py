@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -65,6 +66,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'django_files.wsgi.application'
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '=tz-ta890%0259#-ooolk^&6jf83(xpten%!!^j%^nj%d_5gul'
 
 
 # Database
