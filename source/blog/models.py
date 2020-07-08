@@ -11,7 +11,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.title
+        return self.title + ' ' + self.author.username + ' ' + str(self.author_id)
 
     def get_absolute_url(self):
         return reverse('post-detail', kwargs={'pk':self.pk})
