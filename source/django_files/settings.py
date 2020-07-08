@@ -70,7 +70,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_files.wsgi.application'
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'xddxd'
+SECRET_KEY = 'you-need-to-change-this'
 
 
 # Database
@@ -123,3 +123,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_URL = 'login'
